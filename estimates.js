@@ -22,7 +22,7 @@ setInterval(function () {
             // get title without any HTML children
             let cardTitle = cardTitleDiv.textContent
             const regexp = new RegExp(
-                /(\(\s*([^)]+)\s*\)|\[\s*([^\]]+)\s*])/,
+                /(\(\s*([^)]+)\s*\)|\[\s*([^\]]+)\s*]|\{\s*([^\]]+)\s*})/,
                 'g'
             )
             regexp.lastIndex = 0
