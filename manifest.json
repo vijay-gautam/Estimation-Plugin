@@ -1,16 +1,16 @@
 {
-  "name": "Estimations Plugin for Microsoft Planner",
-  "description": "This extension sums up numbers given in the title of Microsoft Planner cards",
-  "version": "1.0",
+  "name": "Estimations for Microsoft Planner",
+  "description": "This extension sums up numbers given in the title of Microsoft Planner cards. Numbers can be defined in (...), {...} and [...] brackets.",
+  "version": "1.0.0",
   "short_name" : "Planner Estimations",
   "manifest_version": 3,
   "permissions": ["storage", "activeTab", "scripting"],
-  "author": "",
+  "author": "GV",
   "icons": { "128" : "icon.png" },
   "content_scripts": [
     {
       "matches": ["https://tasks.office.com/*/Planner*"],
-      "css": ["bootstrap-iso.css", "estimates.css"],
+      "css": ["bootstrap-iso.css"],
       "js": ["estimates.js"],
       "run_at" : "document_end"
     }
