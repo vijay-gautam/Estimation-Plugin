@@ -9,7 +9,9 @@
   "icons": { "128" : "icon.png" },
   "content_scripts": [
     {
-      "matches": ["https://tasks.office.com/*/Planner*"],
+      "matches": [
+        "https://tasks.office.com/*/Planner*",
+        "https://planner.cloud.microsoft/*/Planner*"],
       "css": ["bootstrap-iso.css"],
       "js": ["estimates.js"],
       "run_at" : "document_end"
