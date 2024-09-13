@@ -4,6 +4,7 @@
   "version": "1.0.2",
   "short_name" : "Planner Estimations",
   "manifest_version": 3,
+  "permissions": [],
   "author": "GV",
   "icons": { "128" : "icon.png" },
   "content_scripts": [
