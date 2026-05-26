@@ -1,7 +1,7 @@
 {
   "name": "Estimations for Microsoft Planner",
   "description": "This extension sums up nos. given in the title of Microsoft Planner cards.Numbers can be defined in (..), {..} and [..] brackets.",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "short_name" : "Planner Estimations",
   "manifest_version": 3,
   "permissions": [],
